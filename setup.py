@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 from dev_global.env import GITHUB_URL
 
-v = (1, 2, 5)
+v = (1, 2, 6)
 
 setup(
         name='libsql_utils',
