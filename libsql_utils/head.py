@@ -4,6 +4,6 @@ from libutils.utils import read_json
 
 
 IP = read_json("IP", CONF_FILE)
-remote = ('stock', 'stock2020', 'stock', IP[1])
-root = ('root', '6414939', 'stock')
-local = ('stock', 'stock2020', 'stock')
+remote = (IP[1], 'stock', 'stock2020', 'stock')
+root = ('localhost', 'root', '6414939', 'stock')
+local = ('localhost', 'stock', 'stock2020', 'stock')

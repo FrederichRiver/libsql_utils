@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# project secret files
+.gitignore
+*/head.py
+libsql_utils/head.py
+.gitignore
